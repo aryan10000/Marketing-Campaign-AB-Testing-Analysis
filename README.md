@@ -12,7 +12,8 @@ The project combines Python-based analytics with business intelligence reporting
 
 # Interactive Tableau Dashboard
 
-<img width="1280" height="832" alt="ab testing dashboard" src="https://github.com/user-attachments/assets/a40505a3-7e9e-477f-b673-7003a3493253" />
+<img width="1280" height="800" alt="ab testing dashboard" src="https://github.com/user-attachments/assets/d6ffbe90-508e-4389-a36b-1a41e7eb31e2" />
+
 
 https://public.tableau.com/app/profile/aryan.soni1850/viz/MarketingCampaignABTestingAnalysis/Dashboard1?publish=yes
 
