@@ -222,17 +222,6 @@ Monitor conversion efficiency and campaign costs to maximize marketing ROI.
 
 ---
 
-# Project Deliverables
-
-- Python Analysis Notebook
-- Statistical Testing Framework
-- Regression Model
-- Interactive Tableau Dashboard
-- Business Insights & Recommendations
-- Executive Performance Report
-
----
-
 ## Author
 
 **Aryan Soni**
