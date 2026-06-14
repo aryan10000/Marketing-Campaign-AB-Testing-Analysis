@@ -1,119 +1,122 @@
 # Marketing Campaign A/B Testing Analysis
 
-## Overview
+## Executive Summary
 
-This project evaluates the effectiveness of Facebook Ads and Google AdWords campaigns using exploratory data analysis, statistical hypothesis testing, and predictive modeling.
+This project evaluates the performance of Facebook Ads and Google AdWords campaigns using exploratory data analysis, statistical hypothesis testing, predictive modeling, and interactive Tableau dashboards.
 
-The objective was to identify the better-performing advertising platform, quantify the relationship between clicks and conversions, and generate actionable business recommendations for marketing budget allocation.
+The objective was to determine which advertising platform generates superior conversion performance, quantify the relationship between clicks and conversions, and provide data-driven recommendations for marketing budget allocation.
 
-### Technologies Used
-
-- Python
-- Pandas
-- NumPy
-- Matplotlib
-- Seaborn
-- SciPy
-- Scikit-Learn
-- Jupyter Notebook
+The project combines Python-based analytics with business intelligence reporting to simulate a real-world marketing analytics workflow used by data analysts and business stakeholders.
 
 ---
 
-## Project Impact
+# Interactive Tableau Dashboard
 
-- Analyzed campaign performance across Facebook and Google AdWords
-- Compared conversion effectiveness between advertising platforms
-- Performed statistical significance testing
-- Built a regression model for conversion prediction
-- Generated business recommendations for budget optimization
+<img width="1280" height="832" alt="ab testing dashboard" src="https://github.com/user-attachments/assets/a40505a3-7e9e-477f-b673-7003a3493253" />
+
+https://public.tableau.com/app/profile/aryan.soni1850/viz/MarketingCampaignABTestingAnalysis/Dashboard1?publish=yes
+
 
 ---
 
-# Dashboard & Analysis Preview
+## Project Highlights
 
-## Conversion Category Distribution
-
-<img width="1118" height="506" alt="Conversion Category Distribution" src="https://github.com/user-attachments/assets/a27ce413-0ab7-4f67-b9a3-9d3f7da65e84" />
-
-
-Facebook campaigns consistently achieved higher conversion ranges, while AdWords conversions were concentrated in lower conversion categories.
-
----
-
-## Clicks vs Conversions Analysis
-
-<img width="1125" height="494" alt="Clicks vs Conversions Analysis" src="https://github.com/user-attachments/assets/3805de9e-65c2-408d-8ef2-15a30e743c60" />
-
-
-Scatter plots were used to evaluate the relationship between ad clicks and conversions across both platforms.
+- Analyzed multi-platform digital advertising campaign performance
+- Compared Facebook and Google AdWords conversion effectiveness
+- Performed statistical hypothesis testing to validate performance differences
+- Built regression models to evaluate click-to-conversion relationships
+- Designed an interactive Tableau dashboard for executive reporting
+- Generated actionable recommendations for campaign optimization
+- Applied business intelligence and marketing analytics techniques
 
 ---
 
-## Linear Regression Model
+### Dashboard Features
 
-<img width="723" height="528" alt="Linear Regression Model" src="https://github.com/user-attachments/assets/2c526228-2a24-498c-a97a-0d6062ce3794" />
-
-
-A linear regression model was developed to quantify the relationship between clicks and conversions and assess predictive capability.
-
----
-
-## Monthly Cost Per Conversion Trend
-
-<img width="712" height="455" alt="Monthly Cost Per Conversion Trend" src="https://github.com/user-attachments/assets/9f4b254a-8cd2-48c4-a171-e097ada52145" />
-
-
-Monthly CPC trends were analyzed to identify periods of higher and lower marketing efficiency.
+- Campaign KPI Monitoring
+- Facebook vs AdWords Performance Comparison
+- Click-to-Conversion Relationship Analysis
+- Advertising Cost Trend Analysis
+- Conversion Distribution Analysis
+- Interactive Filtering by Year and Platform
+- Executive-Level Marketing Reporting
 
 ---
 
 # Business Problem
 
-A marketing team is running advertising campaigns on Facebook and Google AdWords and wants to optimize advertising spend.
+A company is running digital advertising campaigns across Facebook and Google AdWords and wants to maximize marketing ROI.
 
-### Key Questions
+Key business questions include:
 
 - Which platform generates more conversions?
-- Are performance differences statistically significant?
+- Are observed performance differences statistically significant?
 - How strongly do clicks influence conversions?
-- Can future conversions be predicted from click volume?
-- Which periods provide the most cost-efficient conversions?
+- Can future conversion performance be predicted from click activity?
+- Which advertising platform should receive a larger budget allocation?
+- How does advertising cost evolve over time?
 
 ---
 
-# Methodology
+# Analytical Approach
 
 ## 1. Data Preparation
 
 - Date formatting and validation
+- Data quality assessment
 - Missing value inspection
-- Data quality checks
 - Feature engineering
+- Metric standardization
 
 ## 2. Exploratory Data Analysis
 
+- Campaign performance analysis
 - Conversion distribution analysis
-- Platform performance comparison
+- Platform comparison
+- Trend analysis
 - Correlation analysis
-- Time-series trend analysis
 
-## 3. Statistical Analysis
+## 3. Statistical Testing
 
+Hypothesis testing was performed to determine whether differences in conversion performance between Facebook and AdWords campaigns were statistically significant.
+
+Techniques used:
+
+- Descriptive Statistics
 - Hypothesis Testing
-- Statistical Significance Testing
-- Comparative Platform Analysis
+- Statistical Significance Analysis
 
 ## 4. Predictive Modeling
 
-- Linear Regression
-- Conversion Prediction
-- Click-to-Conversion Relationship Analysis
+A Linear Regression model was developed to evaluate the relationship between advertising clicks and conversion outcomes.
+
+Objectives:
+
+- Measure predictive capability
+- Quantify click-to-conversion impact
+- Identify performance drivers
 
 ## 5. Business Intelligence
 
-- Performance Benchmarking
-- Marketing Efficiency Analysis
-- Budget Allocation Recommendations
+An interactive Tableau dashboard was developed to enable:
+
+- KPI monitoring
+- Campaign performance tracking
+- Platform benchmarking
+- Stakeholder reporting
+
+---
+
+# Key Results
+
+| Metric | Result |
+|----------|----------|
+| Best Performing Platform | Facebook |
+| Conversion Leader | Facebook Ads |
+| Statistical Significance | Confirmed |
+| Strong Click-Conversion Relationship | Yes |
+| Predictive Modeling Applied | Linear Regression |
+| Interactive Dashboard Developed | Yes |
 
 ---
 
@@ -121,48 +124,111 @@ A marketing team is running advertising campaigns on Facebook and Google AdWords
 
 ## Facebook Outperformed AdWords
 
-Facebook campaigns consistently generated higher daily conversion volumes than Google AdWords campaigns.
+Facebook campaigns consistently generated higher conversion volumes compared to Google AdWords campaigns.
 
-## Strong Positive Relationship
+## Strong Positive Relationship Between Clicks and Conversions
 
-A strong positive correlation exists between ad clicks and conversions, indicating that click volume is a meaningful predictor of campaign performance.
+Analysis revealed a strong positive relationship between click activity and conversion outcomes, indicating that click volume is a reliable leading performance indicator.
 
 ## Statistically Significant Difference
 
-Hypothesis testing confirmed that the observed conversion performance difference between Facebook and AdWords is statistically significant.
+Hypothesis testing confirmed that the observed conversion performance differences between Facebook and AdWords campaigns were statistically significant rather than random fluctuations.
 
-## Predictive Capability
+## Predictive Insights
 
-The regression model demonstrated that conversion outcomes can be estimated using click activity with reasonable accuracy.
+Regression analysis demonstrated that future conversion performance can be estimated using click activity with reasonable accuracy.
 
 ## Cost Optimization Opportunities
 
-Several months exhibited lower cost-per-conversion values, indicating opportunities for more efficient marketing spend.
+Advertising cost trends revealed periods of higher and lower efficiency, creating opportunities for smarter budget allocation.
 
 ---
 
 # Business Recommendations
 
-- Increase budget allocation toward Facebook campaigns.
-- Prioritize investment during historically efficient periods.
-- Monitor click trends as leading indicators of campaign success.
-- Continuously optimize campaigns based on CPC and conversion efficiency metrics.
-- Use predictive modeling to estimate expected conversion performance before scaling campaigns.
+### Budget Allocation
+
+Increase investment in Facebook campaigns due to stronger conversion performance.
+
+### Performance Monitoring
+
+Track click activity as an early indicator of campaign success.
+
+### Cost Optimization
+
+Allocate larger budgets during historically efficient periods.
+
+### Predictive Decision-Making
+
+Leverage predictive modeling to estimate expected conversion outcomes before scaling campaigns.
+
+### Continuous Optimization
+
+Monitor conversion efficiency and campaign costs to maximize marketing ROI.
+
+---
+
+# Tools & Technologies
+
+### Programming & Analytics
+
+- Python
+- Pandas
+- NumPy
+- SciPy
+- Scikit-Learn
+
+### Data Visualization
+
+- Matplotlib
+- Seaborn
+- Tableau
+
+### Development Environment
+
+- Jupyter Notebook
 
 ---
 
 # Skills Demonstrated
 
-- A/B Testing
-- Statistical Hypothesis Testing
+### Data Analytics
+
 - Exploratory Data Analysis (EDA)
-- Data Visualization
+- Statistical Analysis
 - Correlation Analysis
-- Linear Regression
+- Regression Modeling
+
+### Statistics
+
+- Hypothesis Testing
+- Statistical Significance Testing
+- Descriptive Analytics
+
+### Business Intelligence
+
+- Dashboard Development
+- KPI Design
 - Marketing Analytics
-- Business Intelligence
+- Performance Benchmarking
+
+### Business Skills
+
 - Data-Driven Decision Making
 - Business Recommendation Generation
+- Marketing Performance Evaluation
+- Stakeholder Reporting
+
+---
+
+# Project Deliverables
+
+- Python Analysis Notebook
+- Statistical Testing Framework
+- Regression Model
+- Interactive Tableau Dashboard
+- Business Insights & Recommendations
+- Executive Performance Report
 
 ---
 
@@ -170,8 +236,4 @@ Several months exhibited lower cost-per-conversion values, indicating opportunit
 
 **Aryan Soni**
 
-Aspiring Data Analyst | Python | SQL | Tableau | Statistics
-
-LinkedIn: [Your LinkedIn]
-
-GitHub: [Your GitHub]
+Data Analyst | Python | SQL | Tableau | Excel
