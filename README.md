@@ -226,4 +226,4 @@ Monitor conversion efficiency and campaign costs to maximize marketing ROI.
 
 **Aryan Soni**
 
-Data Analyst | Python | SQL | Tableau | Excel
+Data Analyst | Python | SQL | Tableau | PowerBI | Excel
